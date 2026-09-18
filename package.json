@@ -1,0 +1,11 @@
+{
+  "name": "jane-doe",
+  "private": "true",
+  "workspaces": [
+    "apps/*"
+  ],
+  "scripts": {
+    "website:dev": "bun --cwd apps/website dev",
+    "website:lint": "bun --cwd apps/website lint"
+  }
+}
